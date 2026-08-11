@@ -298,7 +298,7 @@
 
     <div class="taskbar">
         <button class="start-button" id="xp-start-button">
-            <img src="logorjxp.png" alt="start logo">
+            <img src="windows-xp.png" alt="start logo">
             <span>start</span>
         </button>
         <div class="taskbar-divider"></div>
@@ -338,7 +338,7 @@
 
      <div id="xp-notification">
         <div class="notification-title-bar">
-            <span id="notification-title">hi pal</span>
+            <span id="notification-title">hi, missed me?</span>
             <button class="close-notification" id="close-xp-notification">r</button>
         </div>
         <div class="notification-content">
@@ -406,7 +406,7 @@
         }
         setInterval(updateClock, 1000); updateClock();
         
-        function showXpNotification(message = "hit me up anytime!", title = "hi pal") {
+        function showXpNotification(message = "hit me up anytime!", title = "hi, missed me?") {
             if (!xpNotification) return;
             if(notificationText) notificationText.textContent = message;
             const notificationTitleEl = xpNotification.querySelector('#notification-title');
