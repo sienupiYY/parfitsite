@@ -406,7 +406,7 @@
         }
         setInterval(updateClock, 1000); updateClock();
         
-        function showXpNotification(message = "hit me up if you wanna contact me!", title = "hi pal") {
+        function showXpNotification(message = "hit me up anytime!", title = "hi pal") {
             if (!xpNotification) return;
             if(notificationText) notificationText.textContent = message;
             const notificationTitleEl = xpNotification.querySelector('#notification-title');
